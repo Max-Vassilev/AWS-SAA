@@ -88,7 +88,6 @@ Saves RAM to disk on stop, resumes from same state on start — as if the EC2 in
 
 7: EC2 Instance Storage
 
-
 EC2 EBS (volumes):
 It is like a USB stick for EC2 - it stores your data.
 Use case: Preserve root volume when an instance is terminated.
@@ -238,7 +237,6 @@ It doesn’t necessarily have to be attached to RDS - can be simply used for sto
 
 10: Route 53
 
-
 It is the only AWS service that offers 100% availability SLA.
 
 Hosted zone:
@@ -271,6 +269,7 @@ Determine how traffic is directed to resources
 - IP based: Routes traffic to specific resources based on the user's IP address or range.
 - Multi-value (up to 8): user is routed to a random healthy EC2 instance from the list.
 
+11: …
 
 12: Amazon S3 Introduction
 
@@ -301,7 +300,6 @@ S3 Storage Classes:
 - Express One Zone: S3 Glacier storage in a single AZ, cheaper than multi-AZ, with 1–5 minute retrieval for fast archive access.
 
 13: Advanced Amazon S3
-
 
 Lifecycle rules:
 Automatically move objects between storage classes
